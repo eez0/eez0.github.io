@@ -1,0 +1,54 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('background.jpg');
+    height:100vh;
+    color: #f9fafc;
+    font-family: 'Quantico', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+}
+
+#name {
+    /* padding-top: 4em; */
+    font-size: 3em;
+}
+
+#headline {
+    font-size: 1.5rem;
+}
+
+#about {
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+    /* padding-top: 2em; */
+}
+
+@media screen and (max-width: 700px) {
+    #about {
+        width: 100%;
+    }
+}
+
+.button {
+    padding: 5px;
+    color: #f9fafc
+}
+
+.button:hover {
+    color: #2098d1
+}
+
+#contact {
+    padding: 1em;
+}
